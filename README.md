@@ -1,6 +1,6 @@
 # 150 Seconds
 
-A lot can happen in two minutes and thirty seconds - especially if you're playing 150 Seconds.
+A lot can happen in two and a half minutes - especially if you're playing 150 Seconds.
 
 150 Seconds is a two-player game which revolves around a chess clock. Players will take turns completing the prompted tasks, and then press the space bar when the task is finished.
 
