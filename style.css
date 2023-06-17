@@ -1,0 +1,142 @@
+:root {
+    --Player1Theme: #e83c50;
+    --Player2Theme: #1766d8;
+    --TitleBackground: rgb(175, 126, 219);
+/*    --GameBackground: rgba(183, 122, 136, 0.31);*/
+}
+
+html {
+/*    background-color: var(--GameBackground);*/
+    
+    background: radial-gradient(circle, rgb(217, 207, 239) 30%, rgb(200, 166, 230) 100%);
+}
+
+
+html, body {
+    /* To prevent scrolling */
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+#logo {
+    font-family: Helvetica;
+    font-weight: bold;
+/*    font-style: italic;*/
+    padding: 10px;
+    background: var(--TitleBackground);
+    text-align: center;
+    font-size: 170%;
+}
+
+h1 {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 130%;
+    text-align: center;
+}
+
+#instructions {
+}
+
+#timers {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.timer {
+    stroke-width: 25px;
+    fill: none;
+    r: 12%;
+}
+
+#player1_timer {
+    stroke: var(--Player1Theme);   
+}
+
+#player2_timer {
+    stroke: var(--Player2Theme);
+}
+
+.timerText {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 325%;
+    text-anchor: middle;
+}
+
+#player1_timerText {
+    fill: var(--Player1Theme);
+}
+
+#player2_timerText {
+    fill: var(--Player2Theme);
+}
+
+#taskArea {
+    position: relative;
+    height: 450px;
+}
+
+#task {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 150%;
+    
+    padding-left: 30%;
+    width: 40%;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.skipButton {
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+#skip1 {
+    border: 3px solid var(--Player1Theme);
+    background: none;
+    padding: 20px;
+    color: var(--Player1Theme);
+    
+    width: 150px;
+    transform: translateX(-50%);
+    
+    position: absolute;
+    left: 15vw;
+    
+}
+
+#skip2 {
+    border: 3px solid var(--Player2Theme);
+    background: none;
+    padding: 20px;
+    color: var(--Player2Theme);
+    
+    width: 150px;
+    transform: translateX(50%);
+    
+    position: absolute;
+    right: 15vw;
+}
+
+#skip1:hover {
+    color: white;
+    background-color: var(--Player1Theme);
+}
+
+#skip2:hover {
+    color: white;
+    background-color: var(--Player2Theme);
+}
+

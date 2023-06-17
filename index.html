@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>150 Seconds</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div id="logo">
+            150 SECONDS
+        </div>
+        
+        <h1 id="instructions">
+            Complete the tasks in turn before your clock reaches zero.<br>
+            Press the spacebar when you've completed a task.<br>
+            Skipping a task results in a 30-second penalty.<br>
+            The player on the left starts first.
+        </h1>
+
+        <svg id="timers">
+            <circle class="timer" id="player1_timer" cx="15%" cy="50%"></circle>
+            <circle class="timer" id="player2_timer" cx="85%" cy="50%"></circle>
+            
+            <text class="timerText" id="player1_timerText" x="15%" y="52.5%"></text>
+            
+            <text class="timerText" id="player2_timerText" x="85%" y="52.5%"></text>
+        </svg>
+        
+        <div id="taskArea">
+            <h1 id="task"></h1>
+        </div>
+        
+        <div>
+            <button class="skipButton" id="skip1">Skip</button>
+            <button class="skipButton" id="skip2">Skip</button>
+        </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>
