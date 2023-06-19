@@ -12,3 +12,9 @@ The player whose time runs out first loses.
 # Requirements
 
 A portion of the tasks are based on the default applications installed on iOS phones.
+
+# Supported devices
+
+This game is designed to be played on laptops and tablets (connected to a physical keyboard).
+
+The layout may differ for other devices.
