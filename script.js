@@ -48,7 +48,6 @@ const tasks = [
 	"Call someone other than yourself and your opponent, and hang up before they answer the phone.",
 	"Completely close your eyes for 7 seconds. You may only press the spacebar after you’ve opened your eyes and confirmed that the duration is at least 7 seconds.",
 	"All roads lead to Rome. On Google Maps, find a road leading from outside Rome to inside Rome.",
-	"Tell your opponent either a truth or a lie. Your opponent must immediately guess whether the statement is true or not. Press the spacebar if the guess is incorrect.",
 	"Take a screenshot. You may not take a screenshot on this device.",
 	"In order, search “Bing” on Yahoo!, “Yahoo!” on Google, and “Google” on Bing.",
 	"Without turning on Incognito, show your opponent the top video on your YouTube recommended page. You may choose to reload an unlimited number of times.",
